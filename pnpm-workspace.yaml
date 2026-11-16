@@ -8,3 +8,8 @@ peerDependencyRules:
     - vite
   allowedVersions:
     vite: "*"
+permissions:
+  "@cursor/plugins@git+https://github.com/cursor/plugins.git#bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7&path:/harness/pstack/claude-code":
+    skills: [bro]
+  mattpocock-skills@git+https://github.com/mattpocock/skills.git#5863806dd4e15c63174bee4e7515a4256792ecfa:
+    skills: [pr]
