@@ -10,6 +10,8 @@
     "prepare": "vp config"
   },
   "devDependencies": {
+    "@cursor/plugins": "github:cursor/plugins#path:/harness/pstack/claude-code",
+    "mattpocock-skills": "github:mattpocock/skills",
     "typescript": "~7.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:"
